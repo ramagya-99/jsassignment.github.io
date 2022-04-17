@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+<link rel="stylesheet" href="./css/tablestyle.css">
+</head>
+
+<body>  
+        <div class="container">
+            <div class="tab table_1">
+                <h2>TABLE</h2>
+                <table id="table" border="1">
+                    <tr>
+                        <th>Name</th>
+                        <th>City</th>
+                        <th>Mob No:</th>
+                    </tr>
+                    <tr>
+                        <td>Vijay</td>
+                        <td>Lucknow</td>
+                        <td>8987765645</td>
+                    </tr>
+                    <tr>
+                        <td>Amar</td>
+                        <td>Delhi</td>
+                        <td>7389976765</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tab table_2">
+                <h2>Add/Remove Data</h2>
+                <b>Name :</b><input type="text" name="name" id="name">
+                <b>City :</b><input type="text" name="city" id="city">
+                <b>Mob No :</b><input type="tel" name="Mob_no" id="Mob_no">
+                
+                <button onclick="addHtmlTableRow();">Add</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button onclick="removeSelectedRow();">Remove</button>
+            </div>
+        </div>
+        <script src="./Javascript/tablejs.js"></script>
+    </body>
+</html>

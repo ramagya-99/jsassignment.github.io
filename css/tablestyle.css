@@ -1,0 +1,17 @@
+.container{overflow: hidden}
+
+.table_1{float: right;margin-top: 200px;margin-right: 250px;}
+
+.table_2{margin-left: 250px;margin-top: 200px;}
+
+.table_2 input{display: block;margin-bottom: 10px;padding: 5px;}
+
+tr{transition:all .25s ease-in-out}
+
+tr:hover{background-color:rgb(161, 231, 238);cursor: pointer}
+
+td,th{padding: 8px;}
+
+button:hover{background-color:rgb(235, 109, 18);cursor: pointer}
+
+body{background-color:whitesmoke;}
